@@ -1,0 +1,39 @@
+fn main() {
+    // Statements here are executed when the compiled binary is called
+
+    // Print text to the console
+	let mut fib1=0;
+	let mut fib2=1;
+	let mut fib3;
+	
+	while fib1 <1000
+	{
+	FizzBuzz(fib1);
+	fib3=fib1+fib2;
+	fib1=fib2;
+	fib2=fib3;
+	}
+}
+
+fn FizzBuzz(i : i32) {
+    // Statements here are executed when the compiled binary is called
+
+    // Print text to the console
+	
+	if(i % 3 ==0 && i % 5==0)
+	{
+	println!("fizzbuzz");
+	}
+	else if (i % 5==0)
+	{
+	println!("buzz");
+	}
+	else if ( i % 3==0)
+	{
+	println!("fizz");
+	}
+	else{
+	println!("{}", i);
+}
+	
+}
